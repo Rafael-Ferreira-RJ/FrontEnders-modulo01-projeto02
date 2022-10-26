@@ -213,6 +213,30 @@ body {
     padding: 2%;
 
 }
+.group {
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.formCadastro {
+        width: 70%;
+        padding: 30px;
+        background: white;
+        border-radius: 5px;
+    
+}
+.conteiner {
+    background: #707070;
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Pagina de Login*/
 
@@ -307,12 +331,34 @@ body {
 }
 
 /*Pagina de contato*/
-.row {
-    padding: 2%;
-    margin: 10%;
+.caixa {
+    background: white;
+    border-radius: 5px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    
+    padding: 30px;
 }
+.colunas {
+    display: flex;
+    text-align: center;
+    
+    background: white;
+    
+   
 
+}
 .col{
 justify-content: space-evenly;
 
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
 }
